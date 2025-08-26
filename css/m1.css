@@ -1,0 +1,214 @@
+.box1 {
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+  font-size: 20px; /* กำหนดขนาดตัวอักษร */
+}
+.box2 {
+  background-color: #ffe100; /* กำหนดสีพื้นหลัง */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* เงาเล็กน้อยที่ด้านล่างของ header */
+  padding: 0.5rem rem; /* ปรับ padding */
+  position: sticky; /* ทำให้ header อยู่ด้านบนสุดเมื่อเลื่อนจอ */
+  top: 0; /* ตำแหน่งอยู่ที่ด้านบนสุด */
+  z-index: 1000;  /* ทำให้ header อยู่เหนือเนื้อหาอื่น ๆ */
+}
+body {
+  font-family: Arial, sans-serif; /* กำหนดฟอนต์ให้กับเนื้อหา */
+  line-height: 1.6; /* กำหนดระยะห่างระหว่างบรรทัด */
+  color: #333; /* กำหนดสีตัวอักษร */
+}
+body {
+  background-color: #faff77;  /* กำหนดสีพื้นหลัง */
+}
+.box8 {
+  list-style-type: none; /* ลบจุดนำหน้าของรายการ */
+  margin: 0; /* ลบระยะขอบด้านนอก */
+  padding: 0; /* ลบระยะขอบด้านใน */
+  display: flex; /* ใช้ Flexbox เพื่อจัดเรียงรายการในแนวนอน */
+  justify-content: flex-end; /* จัดเรียงรายการให้ชิดขวา */
+  align-items: center; /* จัดรายการให้อยู่กึ่งกลางในแนวตั้ง */
+}
+
+.box8 li {
+  margin-left: 20px; /* เว้นระยะห่างด้านซ้ายระหว่างแต่ละรายการ */
+  font-size: 40px; /* กำหนดขนาดตัวอักษร */
+}
+
+.box8 a {
+  text-decoration: none;  /* ลบเส้นใต้ของลิงก์ */
+    color: #555;    /* กำหนดสีข้อความของลิงก์ */
+    font-weight: bold;  /* ทำให้ตัวหนา */
+    padding: 10px 15px; /* เพิ่ม padding เพื่อให้ลิงก์มีพื้นที่คลิก */
+    transition: background-color 0.3s, color 0.3s;  /* เพิ่มการเปลี่ยนแปลงสีเมื่อ hover */
+}
+.box8 a:hover, .box8 a.active {
+    background-color: #ffbf00;  /* เปลี่ยนสีพื้นหลังเมื่อ hover หรือ active */
+    color: #ffffff; /* เปลี่ยนสีข้อความเมื่อ hover หรือ active */
+}
+ a {
+    font-size: 10px; /* กำหนดขนาดตัวอักษร */
+}
+li{
+    margin: 0px 30px; /* กำหนดระยะห่างด้านบนและล่าง 10px และด้านซ้ายและขวา 20px */
+}
+.box7 {
+  display: flex; /* ใช้ Flexbox เพื่อจัดเรียงรายการในแนวนอน */
+  justify-content: flex-end; /* จัดเรียงรายการให้ชิดขวา */
+}
+.go {
+  display: flex; /* ใช้ Flexbox เพื่อจัดเรียงรายการในแนวนอน */
+}
+.go1 {
+  display: flex; /* ใช้ Flexbox เพื่อจัดเรียงรายการในแนวนอน */
+}
+.go3 {
+  width: 500px; /* กำหนดความกว้าง */
+  height: 200px; /* กำหนดความสูง */
+}
+.box5 {
+  width: 100px;      /* กำหนดความกว้าง */
+  height: 100px;     /* กำหนดความสูงให้เท่ากับความกว้าง */
+  border-radius: 50%; /* ทำให้เป็นวงกลม */
+  overflow: hidden; /* ซ่อนส่วนเกินของรูปภาพที่อยู่นอกขอบวงกลม */
+}
+.box5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ทำให้รูปภาพครอบคลุมพื้นที่ทั้งหมดของ container */
+}
+.box3 {
+  display: flex;  /* ใช้ flexbox เพื่อจัด layout */
+  justify-content: space-between; /* จัดให้อยู่คนละฝั่ง */
+  align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+  max-width: 80%;  /* กำหนดความกว้างสูงสุด */
+  margin: 0 auto; /* จัดให้อยู่กึ่งกลาง */
+}
+.box11 {
+  list-style-type: none; /* ลบจุดนำหน้าของรายการ */
+  margin: 0; /* ลบระยะขอบด้านนอก */
+  padding: 0; /* ลบระยะขอบด้านใน */
+  display: flex; /* ใช้ Flexbox เพื่อจัดเรียงรายการในแนวนอน */
+  gap: 200px; /* เว้นระยะห่างระหว่างรายการ */
+  justify-content: center; /* จัดเรียงรายการให้ชิดขวา */
+  align-items: center; /* จัดรายการให้อยู่กึ่งกลางในแนวตั้ง */
+}
+.box11 {
+    width: 100%; /* กำหนดความกว้างเต็มที่ */
+    height: px; /* กำหนดความสูง */
+}
+.box10 li {
+  margin: 0 50px; /* เว้นระยะห่างด้านซ้ายและขวา */
+}
+.box10 li {
+  margin-left: px; /* เว้นระยะห่างด้านซ้ายระหว่างแต่ละรายการ */
+}
+
+.box10 a {
+  text-decoration: none; /* ลบเส้นใต้ของลิงก์ */
+  color: #333; /* ตั้งค่าสีตัวอักษรให้ดูนุ่มนวลขึ้น */
+  font-weight: 500; /* ทำให้ตัวอักษรดูหนาขึ้นเล็กน้อย */
+  transition: color 0.3s ease; /* เพิ่มเอฟเฟกต์เปลี่ยนสีอย่างนุ่มนวล */
+}
+
+.box10 a:hover {
+  color: #007bff; /* เปลี่ยนสีตัวอักษรเมื่อนำเมาส์ไปวาง */
+}
+.box9{
+    background-color: #ffcc00;  /* กำหนดสีตัวอักษร */
+}
+body {
+  font-family: Arial, sans-serif; /* กำหนดฟอนต์ให้กับเนื้อหา */
+  line-height: 1.6; /* กำหนดระยะห่างระหว่างบรรทัด */
+  color: #333; /* กำหนดสีตัวอักษร */
+}
+.box10 a {
+    font-size: 30px; /* กำหนดขนาดตัวอักษร */
+}
+.box12 {
+    display: flex; /* ใช้ Flexbox เพื่อจัดเรียงเนื้อหา */
+    justify-content: center; /* จัดเนื้อหาให้อยู่กึ่งกลางในแนวนอน */
+    align-items: center; /* จัดเนื้อหาให้อยู่กึ่งกลางในแนวตั้ง */
+    font-size: 30px; /* กำหนดขนาดตัวอักษร */
+}
+.m5 {
+  width: 80px; /* กำหนดความกว้างของกล่อง */
+  height: 80px; /* กำหนดความสูงของกล่อง */
+}
+.h3 {
+    color: brown;
+}
+ main {
+   flex: 1; /* ดันให้ footer ลงไปล่าง */
+   display: flex; /* ใช้ Flexbox เพื่อจัดเรียงเนื้อหา */
+   padding: 20px; /* เพิ่มระยะห่างรอบๆ เนื้อหา */
+   box-sizing: border-box;   /* ทำให้ padding และ border นับรวมในขนาดของ element */
+}
+section {
+  flex: 2; /* ให้ section ใช้พื้นที่มากกว่าของ main */
+  padding: 15px;  /* เพิ่มระยะห่างรอบๆ เนื้อหา */
+  margin-left: 100px;   /* กำหนดระยะห่างด้านซ้าย 20 พิกเซล */
+  margin-right: 100px;  /* กำหนดระยะห่างด้านขวา 20 พิกเซล */
+}
+article {
+  background-color: #fff; /* กำหนดพื้นหลังให้เป็นสีขาว */
+  padding: 15px;  /* เพิ่มระยะห่างรอบๆ เนื้อหา */
+  margin-bottom: 15px;  /* เพิ่มระยะห่างด้านล่างของแต่ละ article */
+}
+aside {
+  background-color: #f4f4f4;  /* กำหนดพื้นหลังให้เป็นสีเทาอ่อน */
+  padding: 15px;    /* เพิ่มระยะห่างรอบๆ เนื้อหา */
+  float: right; /* ทำให้ aside ลอยไปทางขวา */
+  width: 30%; /* กำหนดความกว้างของ aside */
+  margin-left: 20px;  /* เพิ่มระยะห่างด้านซ้ายของ aside */
+  box-sizing: border-box;   /* ทำให้ padding และ border นับรวมในขนาดของ element */
+}
+.box13 {
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+  font-size: 30px; /* กำหนดขนาดตัวอักษร */
+  color: #333; /* กำหนดสีตัวอักษร */
+  margin-bottom: 50px; /* เพิ่มระยะห่างด้านล่าง */
+}
+.box14 {
+  background-color: #fff; /* กำหนดพื้นหลังให้เป็นสีขาว */
+  margin: 20px auto; /* จัดให้อยู่ตรงกลาง */
+}
+h2 h3 {
+  font-size: 24px; /* กำหนดขนาดตัวอักษร */
+  color: #000000; /* กำหนดสีตัวอักษร */
+  margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่าง */
+}
+p {
+  font-size: 18px; /* กำหนดขนาดตัวอักษร */
+  line-height: 1.6; /* กำหนดระยะห่างระหว่างบรรทัด */
+  color: #505050; /* กำหนดสีตัวอักษร */
+  margin-bottom: 5px; /* เพิ่มระยะห่างด้านล่าง */
+}
+.m7 {
+  width: 80%; /* กำหนดความกว้างเต็มที่ */
+  height: 50px; /* กำหนดความสูง */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+  background-color: #ffffff; /* กำหนดสีพื้นหลัง */
+}
+.T1 {
+  width: 400px; /* กำหนดความกว้าง */
+  height: 250px; /* กำหนดความสูง */
+  display: block; /* ทำให้รูปภาพเป็นบล็อก */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+.T2 {
+  width: 300px; /* กำหนดความกว้าง */
+  height: 300px; /* กำหนดความสูง */
+  display: block; /* ทำให้รูปภาพเป็นบล็อก */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+.T3 {
+  width: 220px; /* กำหนดความกว้าง */
+  height: 300px; /* กำหนดความสูง */
+  display: block; /* ทำให้รูปภาพเป็นบล็อก */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+.StarryNight {
+  width: 300px; /* กำหนดความกว้าง */
+  height: 200px; /* กำหนดความสูง */
+  display: block; /* ทำให้รูปภาพเป็นบล็อก */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
