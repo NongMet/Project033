@@ -4,7 +4,7 @@
   font-size: 20px; /* กำหนดขนาดตัวอักษร */
 }
 .box2 {
-  background-color: #ffe100; /* กำหนดสีพื้นหลัง */
+  background-color: #fff351; /* กำหนดสีพื้นหลัง */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* เงาเล็กน้อยที่ด้านล่างของ header */
   padding: 0.5rem rem; /* ปรับ padding */
   position: sticky; /* ทำให้ header อยู่ด้านบนสุดเมื่อเลื่อนจอ */
@@ -17,7 +17,8 @@ body {
   color: #333; /* กำหนดสีตัวอักษร */
 }
 body {
-  background-color: #faff77;  /* กำหนดสีพื้นหลัง */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_3LH3sdxzKeKY5FkVIv4B2gvhmed7PGW9tA&s); /* ใส่ภาพพื้นหลัง */
+  background-size: cover; /* ปรับขนาดภาพให้เต็มพื้นที่ */
 }
 .box8 {
   list-style-type: none; /* ลบจุดนำหน้าของรายการ */
@@ -41,7 +42,7 @@ body {
     transition: background-color 0.3s, color 0.3s;  /* เพิ่มการเปลี่ยนแปลงสีเมื่อ hover */
 }
 .box8 a:hover, .box8 a.active {
-    background-color: #ffbf00;  /* เปลี่ยนสีพื้นหลังเมื่อ hover หรือ active */
+    background-color: #ffdd00;  /* เปลี่ยนสีพื้นหลังเมื่อ hover หรือ active */
     color: #ffffff; /* เปลี่ยนสีข้อความเมื่อ hover หรือ active */
 }
  a {
@@ -113,7 +114,8 @@ li{
   color: #007bff; /* เปลี่ยนสีตัวอักษรเมื่อนำเมาส์ไปวาง */
 }
 .box9{
-    background-color: #ffcc00;  /* กำหนดสีตัวอักษร */
+    background-color: #fff351; /* กำหนดสีพื้นหลัง */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
 }
 body {
   font-family: Arial, sans-serif; /* กำหนดฟอนต์ให้กับเนื้อหา */
@@ -150,7 +152,7 @@ section {
 }
 article {
   background-color: #fff; /* กำหนดพื้นหลังให้เป็นสีขาว */
-  padding: 15px;  /* เพิ่มระยะห่างรอบๆ เนื้อหา */
+  padding: 20px;  /* เพิ่มระยะห่างรอบๆ เนื้อหา */
   margin-bottom: 15px;  /* เพิ่มระยะห่างด้านล่างของแต่ละ article */
 }
 aside {
@@ -168,10 +170,10 @@ aside {
   margin-bottom: 50px; /* เพิ่มระยะห่างด้านล่าง */
 }
 .box14 {
-  background-color: #fff; /* กำหนดพื้นหลังให้เป็นสีขาว */
+  background-color: #ffffff; /* กำหนดพื้นหลังให้เป็นสีขาว */
   margin: 20px auto; /* จัดให้อยู่ตรงกลาง */
 }
-h2 h3 {
+h2 {
   font-size: 24px; /* กำหนดขนาดตัวอักษร */
   color: #000000; /* กำหนดสีตัวอักษร */
   margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่าง */
@@ -206,9 +208,36 @@ p {
   display: block; /* ทำให้รูปภาพเป็นบล็อก */
   margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
 }
+.T5 {
+  width: 350px; /* กำหนดความกว้าง */
+  height: 250px; /* กำหนดความสูง */
+  display: block; /* ทำให้รูปภาพเป็นบล็อก */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+.T6 {
+  width: 180px; /* กำหนดความกว้าง */
+  height: 300px; /* กำหนดความสูง */
+  display: block; /* ทำให้รูปภาพเป็นบล็อก */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+.T7 {
+  width: 350px; /* กำหนดความกว้าง */
+  height: 150px; /* กำหนดความสูง */
+  display: block; /* ทำให้รูปภาพเป็นบล็อก */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
 .StarryNight {
   width: 300px; /* กำหนดความกว้าง */
   height: 200px; /* กำหนดความสูง */
   display: block; /* ทำให้รูปภาพเป็นบล็อก */
   margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+.login {
+
+}
+.login2 {
+
+}
+.login3 {
+  
 }
